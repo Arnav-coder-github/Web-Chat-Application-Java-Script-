@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,intial-scale=1.0">
+    <title>ChatBox - Realtime</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="C:/Users/Nav/OneDrive/Desktop/NodeJs/client.js"></script>
+    <link rel="stylesheet" href="C:/Users/Nav/OneDrive/Desktop/NodeJs/style.css">
+    </head>
+    <body>
+   
+    <div class="container" style="position:relative; top: 30px;">
+       <!-- <div class="message left">Person1: Hey how are you?</div>
+        <div class="message right">Person2: Bhai I am fine. How about you?</div>-->
+    </div>
+    
+    <div class="square">
+        <style id="square"></style>
+
+    <div class="btn-action">
+            <button id="bold" type="submit" style="position:relative; top: 30px;left: 220px;border: 1px;background-color: transparent;color: gray;font-size: 20px;"><b>B</b></button>
+            <button id="italic" type="submit" style="position:relative; top: 30px;left: 221px;border: 1px;background-color: transparent;color: gray;font-size: 20px;"><i>I</i></button>
+            <button id="strike" type="submit" style="position:relative; top: 30px;left: 222px;border: 1px;background-color: transparent;color: gray;font-size: 20px;"><s>S</s></button>
+            <button id="hyperlink" type="submit" style="position:relative; top: 30px;left: 223px;border: 1px;background-color: transparent;color: gray;font-size: 20px;"><b>H</b></button> 
+            
+            <button id="numberList" type="submit" style="position:relative; top: 30px;left: 224px;border: 1px;background-color: transparent;color: gray;font-size: 20px;"><b>N</b></button>
+            <button id="bullet" type="submit" style="position:relative; top: 30px;left: 225px;border: 1px;background-color: transparent;color: gray;font-size: 20px;"><b>b</b></button>
+            <button id="snippet" type="submit" style="position:relative; top: 30px;left: 226px;border: 1px;background-color: transparent;color: gray;font-size: 20px;"><b>B</b>s</button>
+            <button id="block" type="submit" style="position:relative; top: 30px;left: 227px;border: 1px;background-color: transparent;color: gray;font-size: 20px;">&#60;&#47;&#62;</button>
+            <button id="blockquote" type="submit" style="position:relative; top: 30px;left: 228px;border: 1px;background-color: transparent;color: gray;font-size: 20px;"><b>B</b>Q</button>
+
+            <button id="upload" type="file" accept="image/png" style="position:relative; top: 170px;right: 80px;border: 1px;background-color: transparent;color: gray; font-size: 30px;">+</button>|
+            <button id="mentionSomeone" type="submit" style="position:relative; top: 165px;right: 55px;border: 1px;background-color: transparent;color: gray;font-size: 20px;" ><b>@</b></button>
+
+    </div>
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="message" id="messageInp" placeholder="Chat comes here..." style="position:relative; bottom: 50px;top: 50px;">
+            <button id="emoji-btn" style="font-size: 20px;">&#127773;</button>
+
+            <!--<button class="btn" type="submit">Send</button>-->
+            <input class="btn" type="image" src="C:\Users\Nav\OneDrive\Desktop\NodeJs\send-btn.png" name="submit" alt="submit" style="position:relative; bottom: 1px; top: 75px;left: 380px ;"/>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@joeattardi/emoji-button@3.1.1/dist/index.min.js"></script>
+
+</div>
+</body>
+</html>

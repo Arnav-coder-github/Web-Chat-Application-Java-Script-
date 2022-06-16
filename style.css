@@ -1,0 +1,130 @@
+.container{
+    max-width: 1000px;
+    background-color: rgb(48,48,48);
+    border:solid whitesmoke;
+    margin:auto;
+    height: 30vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+}
+.message{
+    background-color: grey;
+    width: 24x;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+
+#send-container{
+
+    max-width: 955px;
+    background-color: rgb(40, 40, 40);
+    border:solid white;
+    height: 25vh;
+    width: 800px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+    display: block;
+    margin: auto;
+    text-align: center;
+    
+}
+
+#messageInp{
+    width: 99%;
+    height: 34px;
+    background-color: rgb(40, 40, 40);
+}
+/*
+.square {
+    height: 20vh;
+    width: 1000px;
+    padding: 20px;
+    
+  border: white;
+  background-color: rgb(40, 40, 43);
+}*/
+
+.btn{
+    cursor: pointer;
+    background-color: rgb(22, 128, 22);
+    border-radius: 6px;
+    height: 34px;
+    width: 50px;
+
+}
+
+.active{
+    color: white;
+}
+
+.bold{
+    font-weight: bold;
+
+}
+
+.italic{
+    font-style: italic;
+}
+
+.strike{
+    font-style: strike;
+}
+.bullet{
+    list-style-type:circle;
+}
+
+.hyperlink{
+    list-style-type:circle;
+}
+
+.numberList{
+    list-style-type:circle;
+}
+
+.blockquote{
+    list-style-type:circle;
+}
+
+.snippet{
+    list-style-type:circle;
+}
+
+.block{
+    list-style-type:circle;
+}
+
+.upload{
+    list-style-type:circle;
+}
+
+.mentionSomeone{
+    background-color: transparent;
+
+    
+}
+
+#emoji-btn{
+    position: absolute;
+    background-color: transparent;
+    border: transparent;
+    right: 970px;
+    top: 448px;
+}
+
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgb(40, 40, 40), rgb(40, 40, 40));
+}
